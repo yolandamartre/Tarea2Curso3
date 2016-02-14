@@ -26,7 +26,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mMU-fA-05V">
                                 <rect key="frame" x="79" y="56" width="221" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="webSearch"/>
                                 <connections>
                                     <action selector="oprimioIr:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="CCA-ZO-2T8"/>
                                 </connections>

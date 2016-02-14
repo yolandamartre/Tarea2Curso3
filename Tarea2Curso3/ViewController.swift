@@ -26,6 +26,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let tap = UITapGestureRecognizer(target: self, action: "quitaTeclado")
+        
+        self.view.addGestureRecognizer(tap)
+    }
+    
+    func quitaTeclado()
+    {
+        self.view.endEditing(true)
     }
 
     override func didReceiveMemoryWarning() {
